@@ -1,0 +1,39 @@
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PowerShell and local execution artifacts
+*.log
+*.clixml
+*.tmp
+*.bak
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Generated scan output and local reports
+/output/
+/results/
+/reports/
+/evidence/
+*.csv
+
+# Generated archives and packages
+*.zip
+*.tar
+*.tar.gz
